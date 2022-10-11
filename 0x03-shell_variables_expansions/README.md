@@ -1,31 +1,31 @@
 #!/bin/bash
-0-current_working_directory  - Write a script that prints the absolute path name of the current working directory.
+0-alias - Create a script that creates an alias.
 
-1-listit - Display the contents list of your current directory.
+1-hello_you - Create a script that prints hello user, where user is the current Linux user.
 
-2-bring_me_home - Write a script that changes the working directory to the user’s home directory. You are not allowed to use any shell variables
+2-path - Add /action to the PATH. /action should be the last directory the shell looks into when looking for a program.
 
-3-listfiles - Display current directory contents in a long format
+3-paths - Create a script that counts the number of directories in the PATH.
 
-4-listmorefiles - Display current directory contents, including hidden files (starting with .). Use the long format.
+4-global_variables - Create a script that lists environment variables.
 
-5-listfilesdigitonly - Display current directory contents. Long format with user and group IDs displayed numerically And hidden files (starting with .)
+5-local_variables - Create a script that lists all local variables and environment variables, and functions.
 
-6-firstdirectory - Create a script that creates a directory named holberton in the /tmp/ directory.
+6-create_local_variable - Create a script that creates a new local variable.
 
-7-movethatfile - Move the file betty from /tmp/ to /tmp/holberton.
+7-create_global_variable - Create a script that creates a new global variable.
 
-8-firstdelete - Delete the file betty. The file betty is in /tmp/holberton
+8-true_knowledge - Write a script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
 
-9-firstdirdeletion - Delete the directory holberton that is in the /tmp directory.
+9-divide_and_rule - Write a script that prints the result of POWER divided by DIVIDE, followed by a new line.
 
-10-back - Write a script that changes the working directory to the previous one.
+10-love_exponent_breath - Write a script that displays the result of BREATH to the power LOVE BREATH and LOVE are environment variables The script should display the result, followed by a new line
 
-11-lists - Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+11-binary_to_decimal - Write a script that converts a number from base 2 to base 10. The number in base 2 is stored in the environment variable BINARY The script should display the number in base 10, followed by a new line
 
-12-file_type - Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
+12-combinations - Create a script that prints all possible combinations of two letters, except oo. Letters are lower cases, from a to z One combination per line The output should be alpha ordered, starting with aa Do not print oo Your script file should contain maximum 64 characters
 
-13-symbolic_link - Create a symbolic link to /bin/ls, named ls. The symbolic link should be created in the current working directory.
+13-print_float - Write a script that prints a number with two decimal places. The number will be stored in the environment variable NUM.
 
-14-copy_html - Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory. You can consider that all HTML files have the extension .html 
+14-decimal_to_hexadecimal - Write a script that converts a number from base 10 to base 
 
